@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+	<title>Generator CV</title>
+	<link rel="stylesheet" href="style.css">
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
+</head>
+<body>
+	<h1>Generator CV</h1>
+	<form id="id-form">
+		<h2>Twoje Dane</h2>
+		<input type="text" id="name" placeholder="Imię i nazwisko">
+		<textarea id="experience" placeholder="Doświadczenie zawodowe"></textarea>
+		<button type="submit">Generuj PDF</button>
+	</form>
+	<hr>
+	<h2>Podgląd:</h2>
+	<div id="cv-preview">
+		<h1>Imię i nazwisko</h1>
+		<p>Doświadczenie zawodowe</p>
+	</div>
+
+	<script src="app.js"></script>
+</body>
+</html>
